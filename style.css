@@ -1,0 +1,101 @@
+body{background-color: lightblue;} 
+
+@font-face {
+    font-family: "myfont";
+    src: url(font.ttf);
+}
+
+#title{
+position: absolute;
+top: -1%;
+left: 29%;
+font-size: 320%;
+font-family:"myfont" ;
+}
+
+#paper{
+height: 300px;
+position: absolute;
+top: 13%;
+left: 27%;
+}
+
+#scissors{
+height: 300px;
+position: absolute;
+top: 13%;
+left: 39%;
+}
+
+#rock{
+height: 300px;
+position: absolute;
+top: 13%;
+left: 51%;
+}
+
+#mySelect{
+position: absolute;
+top: 46%;
+left: 27.5%;
+font-family:'myfont' ;
+}
+
+#computerSelect{
+position: absolute;
+top: 46%;
+left: 53%;
+font-family:'myfont' ;
+}
+
+#winner{
+position: absolute;
+top: 57%;
+left: 40%;
+font-family:'myfont' ;
+}
+
+#button{
+position: absolute;
+top: 0%;
+left: 0%;
+background-color: #000000;
+color: #FFFFFF;
+padding: 10px;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+margin:10px;
+font-family:'myfont' ;
+
+}
+
+
+#kid{
+    height: 129px;
+    position: absolute;
+    top: 74%;
+}
+
+#computer{
+    height: 129px;
+    position: absolute;
+    top: 76%;
+    left: 91%;
+}
+
+#kidScore{
+    position: absolute;  
+    font-size: 320%;
+    top: 86%;
+    left:3% ;
+    font-family:'myfont' ;
+}
+
+#computerScore{
+    font-size: 320%;
+    position: absolute;
+    top: 88%;
+    left: 94.4%;
+    font-family:'myfont' ;
+}
